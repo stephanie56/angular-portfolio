@@ -1,0 +1,67 @@
+h1, h2 {
+  margin: 0;
+}
+
+.hero {
+  height: 20rem;
+  background-color: honeydew;
+  color: grey;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  font-size: 2.8rem;
+  font-weight: normal;
+}
+
+.about {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 6rem 2rem;
+}
+
+.about__description {
+  width: 70%;
+  float: left;
+  /*background: yellow;*/
+}
+
+.about__image {
+  width: 20%;
+  float: left;
+  /*background: red;*/
+}
+
+.about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.social-media {
+  clear:both;
+  text-align: center;
+  padding: 6rem 3rem;
+}
+
+.social-media ul {
+  margin-top: 1rem;
+}
+
+.social-media li {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin-left: 1rem;
+}
